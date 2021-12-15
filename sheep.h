@@ -22,11 +22,11 @@ using  namespace std;
 #define N					51				//每组的测试数目
 #define SET					1				//测试组数
 #define DEGREE_HUNTAWAY		0.2				//牧羊犬介入程度
-#define Epsilon				1e-20			//GD误差
+#define Epsilon				1e-10			//GD误差
 #define step                1E-4			
 
 
-#define U					0.00000001			//最小阀值
+#define U					0.000000000001			//最小阀值
 #define PRINT_BELLWETHER	1					//是否在文件1中输出每一代领头羊
 #define PRINT_HUNTAWAY		1					//是否输出牧羊犬介入
 #define TIMES_HUNTAWAY		0	 				//牧羊犬介入代数最小间隔
